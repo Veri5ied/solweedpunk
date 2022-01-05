@@ -84,6 +84,11 @@
   margin-top: 1.3em;
 }
 
+.team_name h3 {
+  background: #fff;
+  color: #0b0c22;
+}
+
 .team_name p {
   text-align: center;
 }
@@ -101,3 +106,5 @@ svg {
 svg:hover {
   cursor: pointer;
 }
+
+
