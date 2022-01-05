@@ -65,3 +65,39 @@
   width: 200px;
   border-radius: 50%;
 }
+
+.solweedpunk_team_details {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.team {
+  width: 300px;
+  text-align: center;
+}
+
+.team_name {
+  text-align: center;
+  margin-top: 1.3em;
+}
+
+.team_name p {
+  text-align: center;
+}
+
+.team_img img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+svg {
+  color: #fff;
+  margin: 0 0.5em;
+}
+
+svg:hover {
+  cursor: pointer;
+}
