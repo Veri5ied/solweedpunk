@@ -1,5 +1,8 @@
 import HeroImage from "../../assets/grsDRXc.png";
 import AboutImage from "../../assets/afzwKAO.png";
+import TokePro from "../../assets/toke pro.gif";
+import TokeToke from "../../assets/toke-toke.gif";
+import Bud from "../../assets/xQN2bV9.jpg"
 import Navbar from "../../components/navigation/Navbar";
 import "./Landingpage.css";
 
@@ -9,39 +12,59 @@ function Landingpage() {
       <Navbar />
       <div className="page_body container">
         <div className="page_body_left">
-          <h2 className="pb-2">Weed Punkz</h2>
-          <p className="pt-2">
-            888 collectable Weedpunkz generated with random attributes and
-            items. Grab some fun pixel art for you and your buds! SOLD OUT
-          </p>
+          <h1 className="pb-2">SOLWEEDPUNKZ</h1>
+          <h2 className="toke_toke">TOKE TOKE...</h2>
         </div>
         <div className="page_body_right">
-          <img src={HeroImage} alt="hero_image" />
+          <img src={TokePro} alt="hero_image" />
         </div>
       </div>
+      {/* Mission */}
+      <div className="sol_mission container mt-4">
+        <div className="sol_mission_content">
+          <div className="sol_header">
+            <h2>SOLWEEDPUNKZ MISSION...</h2>
+          </div>
+          <div className="about_mission">
+            <div className="toke_imgs mt-3">
+              <img src={AboutImage} alt="about_image" />
+              <img src={HeroImage} alt="toke pro" />
+            </div>
+            <div className="about_texts">
+              <p>
+                888 collectable Weedpunkz generated with random attributes and
+                items. Grab some fun pixel art for you and your buds!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Roadmap */}
+      <div className="sol_roadmap container mt-4">
+        <div className="sol_roadmap_content">
+          <div className="sol_roadmap_title">
+            <h2>SOLWEEDPUNKZ ROADMAP...</h2>
+          </div>
+        </div>
+      </div>
+      {/* Toke Toke Arts */}
+      <div className="sol_toke_arts container mt-4">
+        <div className="toke_img_title">
+          <h2>SOLWEEDPUNKZ ARTS</h2>
+        </div>
+        <div className="toke_toke_img">
+          <img src={TokeToke} alt="" />
+          <img src={Bud} alt="" />
+          <img src={AboutImage} alt="" />
+        </div>
+      </div>
+      {/* The team */}
+      <div className="solweedpunk_team container mt-4">
+        <div className="solweedpunk_team_title">
+          <h2>SOLWEEDPUNKZ TEAM</h2>
+        </div>
+        <div className="solweedpunk_team_details">
 
-      {/* second layer */}
-      <div className="about_page">
-        <div className="about_section container">
-          <div className="about_page_left">
-            <img src={AboutImage} alt="toke toke" />
-          </div>
-          <div className="about_page_right">
-            <h2>What we're about</h2>
-            <p className="pt-3">
-              We're trying to organically grow a community of fun-loving &
-              creative members so we can get together to discuss the finer
-              things in life such as: music, pets, weed, and snacks. We would
-              love to gather as many artists and creators into our community as
-              we can, so we can all have fun creating together and building
-              lifelong friendships. . This is an art and community forward
-              project with no gimmicky royalties or burns, sorry, although we
-              may be open to some floor sweeps. BUT we do plan on doing airdrops
-              and more fun art for the community! We will also be donating 10%
-              of the mint towards breast cancer(we are going to let the
-              community vote the exact charity.)
-            </p>
-          </div>
         </div>
       </div>
     </div>

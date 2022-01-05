@@ -11,7 +11,6 @@ function Navbar() {
         </div>
         <div className="nav_items_menus">
           <a href="#home">HOME</a>
-          <a href="#rarity">RARITY</a>
           <a href="#about">ABOUT</a>
           <a href="#roadmap">ROADMAP</a>
           <a href="#team">TEAM</a>
