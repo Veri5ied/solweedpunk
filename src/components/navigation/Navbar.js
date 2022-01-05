@@ -1,8 +1,4 @@
-import React, { useState } from "react";
 import SolWeedLogo from "../../assets/solweedlogo.png";
-
-import { BiMenuAltRight } from "react-icons/bi";
-import { IoCloseOutline } from "react-icons/io5";
 
 import "./Navbar.css";
 
