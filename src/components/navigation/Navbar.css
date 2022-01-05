@@ -1,0 +1,24 @@
+.nav {
+  background: inherit;
+  height: 11vh;
+}
+
+.nav > .nav_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_items_logo img {
+  width: 180px;
+}
+
+.nav_items_menus a {
+  text-decoration: none;
+  padding: 0 1em;
+  color: #fff;
+}
+
+.nav_items_menus a:hover {
+  color: #a2b4d2;
+}
