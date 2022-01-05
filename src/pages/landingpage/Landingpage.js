@@ -18,8 +18,8 @@ function Landingpage() {
         <div className="page_body_left">
           <h1 className="pb-2">SOLWEEDPUNKZ</h1>
           <h2 className="toke_toke">TOKE TOKE...</h2>
-          <BsDiscord size={60} />
-          <FaTwitter size={60} />
+          <BsDiscord size={40} />
+          <FaTwitter size={40} />
         </div>
         <div className="page_body_right">
           <img src={TokePro} alt="hero_image" />
