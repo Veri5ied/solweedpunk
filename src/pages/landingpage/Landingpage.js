@@ -9,6 +9,7 @@ import Metaverse from "../../assets/Wg86pOz.png";
 import { BsDiscord } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import "./Landingpage.css";
+import FaqComponent from "../../components/faq/FaqComponent";
 
 function Landingpage() {
   return (
@@ -100,6 +101,46 @@ function Landingpage() {
               </p>
             </div>
           </div>
+          {/* Team two */}
+          <div className="team">
+            <div className="team_img">
+              <img src={Bud} alt="moon" />
+            </div>
+            <div className="team_name">
+              <h3>Terp Doctor</h3>
+              <p>Artist and Founder of all things Solweedpunk</p>
+            </div>
+          </div>
+          <div className="team">
+            <div className="team_img">
+              <img src={DankMonk} alt="dank monk" />
+            </div>
+            <div className="team_name">
+              <h3>Nico GT</h3>
+              <p>Helper monke, Investor, Advisor, Mod, Stuff doer</p>
+            </div>
+          </div>
+          <div className="team">
+            <div className="team_img">
+              <img src={Metaverse} alt="meta" />
+            </div>
+            <div className="team_name">
+              <h3>Veri5ied</h3>
+              <p>
+                Software Engineer, building and making the web accessible to
+                many
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* FAQ */}
+      <div className="faq_section container mt-4">
+        <div className="faq_title">
+          <h2 className="faq">FAQ...</h2>
+        </div>
+        <div className="faq__body mb-3">
+          <FaqComponent />
         </div>
       </div>
     </div>

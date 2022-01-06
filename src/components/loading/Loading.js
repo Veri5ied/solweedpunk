@@ -1,4 +1,4 @@
-import TokeToke from "../../assets/toke-toke.gif";
+import TokeToke from "../../assets/toke.gif";
 import "./Loading.css";
 
 function Loading() {
