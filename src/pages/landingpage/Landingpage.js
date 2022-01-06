@@ -14,6 +14,7 @@ function Landingpage() {
   return (
     <div className="landing_page">
       <Navbar />
+      <div id="home"></div>
       <div className="page_body container">
         <div className="page_body_left">
           <h1 className="pb-2">SOLWEEDPUNKZ</h1>
@@ -26,6 +27,7 @@ function Landingpage() {
         </div>
       </div>
       {/* Mission */}
+      <div id="about"></div>
       <div className="sol_mission container mt-4">
         <div className="sol_mission_content">
           <div className="sol_header">
@@ -48,6 +50,7 @@ function Landingpage() {
         </div>
       </div>
       {/* Roadmap */}
+      <div id="roadmap"></div>
       <div className="sol_roadmap container mt-4">
         <div className="sol_roadmap_content">
           <div className="sol_roadmap_title">
@@ -70,11 +73,12 @@ function Landingpage() {
         </div>
       </div>
       {/* The team */}
+      <div id="team"></div>
       <div className="solweedpunk_team container mt-4">
         <Team />
       </div>
       {/* FAQ */}
-      <div className="faq_section container mt-1">
+      <div className="faq_section container mt-1" id="faq">
         <div className="faq_title">
           <h2 className="faq">FAQ...</h2>
         </div>

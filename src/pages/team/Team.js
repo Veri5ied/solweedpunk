@@ -65,7 +65,7 @@ function Team() {
           </div>
           <div className="team_name">
             <h3>Nico GT</h3>
-            <p>Helper monke, Investor, Advisor, Mod, Stuff doer</p>
+            <p>Community manager and 3D artist.</p>
             <FaTwitter size={26} />
           </div>
         </div>
