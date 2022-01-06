@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+
 body {
- font-family: 'Poppins', sans-serif;
- background: #0b0c22;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Shizuru", cursive;
+  background: #0b0c22;
 }

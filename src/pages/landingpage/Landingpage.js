@@ -19,8 +19,20 @@ function Landingpage() {
         <div className="page_body_left">
           <h1 className="pb-2">SOLWEEDPUNKZ</h1>
           <h2 className="toke_toke">TOKE TOKE...</h2>
-          <BsDiscord size={40} />
-          <FaTwitter size={40} />
+          <a
+            href="https://discord.gg/nvVQ8FBzc2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsDiscord size={40} />
+          </a>
+          <a
+            href="https://twitter.com/solweedpunk"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTwitter size={40} />
+          </a>
         </div>
         <div className="page_body_right">
           <img src={Toke} alt="hero_image" />
@@ -90,8 +102,20 @@ function Landingpage() {
       <div className="footer_section container mt-4">
         <div className="footer_text">
           <div className="footer_social">
-            <BsDiscord />
-            <FaTwitter />
+            <a
+              href="https://discord.gg/nvVQ8FBzc2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsDiscord />
+            </a>
+            <a
+              href="https://twitter.com/solweedpunk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTwitter />
+            </a>
           </div>
           <p>Copyright © 2022, SolWeedPunk.</p>
         </div>

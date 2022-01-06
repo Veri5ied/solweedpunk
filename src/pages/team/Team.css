@@ -22,6 +22,7 @@
   background: #fff;
   color: #0b0c22;
   font-size: 24px;
+  font-weight: 800;
 }
 
 .team_name p {
@@ -32,5 +33,10 @@
 .team_img img {
   width: 160px;
   border-radius: 50%;
+  transition: 0.4s ease-out;
 }
 
+.team_img img:hover {
+  border: 6px solid #a2b4d2;
+  cursor: pointer;
+}
