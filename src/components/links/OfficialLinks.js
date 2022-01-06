@@ -9,7 +9,7 @@ export default function OfficialLinks() {
             <p>
               Magic Eden:{" "}
               <a
-                href="https//magiceden.io/marketplace/weedpunkz"
+                href="https://magiceden.io/marketplace/weedpunkz"
                 target="_blank"
                 rel="noreferrer"
               >
