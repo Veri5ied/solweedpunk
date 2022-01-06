@@ -50,6 +50,7 @@
 .about_texts {
   width: 600px;
   color: #fff;
+  font-size: 16px;
 }
 
 .sol_roadmap {
@@ -58,45 +59,12 @@
 
 .toke_toke_img {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .toke_toke_img img {
   margin-top: 2em;
-  width: 200px;
-  border-radius: 50%;
-}
-
-.solweedpunk_team_details {
-  margin-top: 3em;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  color: white;
-}
-
-.team {
-  width: 300px;
-  text-align: center;
-}
-
-.team_name {
-  text-align: center;
-  margin-top: 1.3em;
-}
-
-.team_name h3 {
-  background: #fff;
-  color: #0b0c22;
-}
-
-.team_name p {
-  text-align: center;
-}
-
-.team_img img {
-  width: 200px;
+  width: 160px;
   border-radius: 50%;
 }
 

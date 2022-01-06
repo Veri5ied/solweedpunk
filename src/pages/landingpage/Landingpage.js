@@ -3,13 +3,12 @@ import AboutImage from "../../assets/afzwKAO.png";
 import TokePro from "../../assets/toke pro.gif";
 import TokeToke from "../../assets/toke-toke.gif";
 import Bud from "../../assets/xQN2bV9.jpg";
-import DankMonk from "../../assets/mWNcDgt.png";
 import Navbar from "../../components/navigation/Navbar";
-import Metaverse from "../../assets/Wg86pOz.png";
 import { BsDiscord } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import "./Landingpage.css";
 import FaqComponent from "../../components/faq/FaqComponent";
+import Team from "../team/Team";
 
 function Landingpage() {
   return (
@@ -69,72 +68,7 @@ function Landingpage() {
       </div>
       {/* The team */}
       <div className="solweedpunk_team container mt-4">
-        <div className="solweedpunk_team_title">
-          <h2>SOLWEEDPUNKZ TEAM...</h2>
-        </div>
-        <div className="solweedpunk_team_details">
-          <div className="team">
-            <div className="team_img">
-              <img src={Bud} alt="moon" />
-            </div>
-            <div className="team_name">
-              <h3>Moonbox</h3>
-              <p>Artist and Founder of all things Solweedpunk</p>
-            </div>
-          </div>
-          <div className="team">
-            <div className="team_img">
-              <img src={DankMonk} alt="dank monk" />
-            </div>
-            <div className="team_name">
-              <h3>DankMonke</h3>
-              <p>Helper monke, Investor, Advisor, Mod, Stuff doer</p>
-            </div>
-          </div>
-          <div className="team">
-            <div className="team_img">
-              <img src={Metaverse} alt="meta" />
-            </div>
-            <div className="team_name">
-              <h3>Metaversol</h3>
-              <p>
-                Formerly Test Guys - They are the big brains behind our
-                metaverse world
-              </p>
-            </div>
-          </div>
-          {/* Team two */}
-          <div className="team">
-            <div className="team_img">
-              <img src={Bud} alt="moon" />
-            </div>
-            <div className="team_name">
-              <h3>Terp Doctor</h3>
-              <p>Artist and Founder of all things Solweedpunk</p>
-            </div>
-          </div>
-          <div className="team">
-            <div className="team_img">
-              <img src={DankMonk} alt="dank monk" />
-            </div>
-            <div className="team_name">
-              <h3>Nico GT</h3>
-              <p>Helper monke, Investor, Advisor, Mod, Stuff doer</p>
-            </div>
-          </div>
-          <div className="team">
-            <div className="team_img">
-              <img src={Metaverse} alt="meta" />
-            </div>
-            <div className="team_name">
-              <h3>Veri5ied</h3>
-              <p>
-                Software Engineer, building and making the web accessible to
-                many
-              </p>
-            </div>
-          </div>
-        </div>
+        <Team />
       </div>
       {/* FAQ */}
       <div className="faq_section container mt-4">

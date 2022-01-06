@@ -8,7 +8,7 @@ const data = {
     },
     {
       title: "When Discord",
-      content: "Now. https://discord.gg/7QKJdqSR",
+      content: `Now. <a href="https://discord.gg/7QKJdqSR">https://discord.gg/7QKJdqSR</a>`,
     },
     {
       title: "When FTX",
@@ -31,20 +31,15 @@ const styles = {
 };
 
 const config = {
-    animate: true,
-    arrowIcon: "v",
-    tabFocus: true
+  animate: true,
+  arrowIcon: "v",
+  tabFocus: true,
 };
 
 export default function FaqComponent() {
-
-    return (
-        <div>
-            <Faq
-                data={data}
-                styles={styles}
-                config={config}
-            />
-        </div>
-    );
+  return (
+    <div>
+      <Faq data={data} styles={styles} config={config} />
+    </div>
+  );
 }
