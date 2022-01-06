@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react"
 import Faq from "react-faq-component";
 
 const data = {
