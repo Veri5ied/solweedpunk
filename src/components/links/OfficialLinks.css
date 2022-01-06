@@ -1,0 +1,19 @@
+ul {
+  text-decoration: underline;
+}
+
+ul li {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 0.6em 0;
+}
+
+li p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li p a:hover {
+  color: #a2b4d2;
+}

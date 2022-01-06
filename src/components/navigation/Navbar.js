@@ -14,7 +14,7 @@ function Navbar() {
           <a href="#about">ABOUT</a>
           <a href="#roadmap">ROADMAP</a>
           <a href="#team">TEAM</a>
-          <a href="#faq">FAQ</a>
+          <a href="#links">OFFICIAL LINKS</a>
         </div>
       </div>
     </div>

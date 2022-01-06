@@ -7,7 +7,7 @@ import Navbar from "../../components/navigation/Navbar";
 import { BsDiscord } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import "./Landingpage.css";
-import FaqComponent from "../../components/faq/FaqComponent";
+import OfficialLinks from "../../components/links/OfficialLinks"
 import Team from "../team/Team";
 
 function Landingpage() {
@@ -90,12 +90,13 @@ function Landingpage() {
         <Team />
       </div>
       {/* FAQ */}
-      <div className="faq_section container mt-1" id="faq">
-        <div className="faq_title">
-          <h2 className="faq">FAQ...</h2>
+      <div id="links"></div>
+      <div className="link_section container mt-1">
+        <div className="link_title">
+          <h2 className="link">OFFICIAL LINKS...</h2>
         </div>
-        <div className="faq__body">
-          <FaqComponent />
+        <div className="link__body">
+          <OfficialLinks />
         </div>
       </div>
       {/* Footer Section */}
