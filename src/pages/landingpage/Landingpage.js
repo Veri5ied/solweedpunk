@@ -107,14 +107,14 @@ function Landingpage() {
               target="_blank"
               rel="noreferrer"
             >
-              <BsDiscord />
+              <BsDiscord size={20}/>
             </a>
             <a
               href="https://twitter.com/solweedpunk"
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter />
+              <FaTwitter size={20}/>
             </a>
           </div>
           <p>Copyright © 2022, SolWeedPunk.</p>

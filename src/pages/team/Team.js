@@ -55,7 +55,7 @@ function Team() {
           </div>
           <div className="team_name">
             <h3>Terp Doctor</h3>
-            <p>Artist and Founder of all things on Solweedpunk</p>
+            <p>Developer, community builder and moderator.</p>
             <FaTwitter size={26} />
           </div>
         </div>

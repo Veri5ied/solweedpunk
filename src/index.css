@@ -2,6 +2,21 @@
 
 body {
   /* font-family: 'Poppins', sans-serif; */
-  
   background: #0b0c22;
+  scrollbar-width: thin;
+  scrollbar-color: #a2b4d2;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0b0c22 !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0b0c22 !important;
+  border-radius: 6px;
+  border: 3px solid #a2b4d2;
 }
