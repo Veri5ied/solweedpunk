@@ -4,6 +4,7 @@ import Alvin from "../../assets/alvin.png";
 import Nico from "../../assets/nico.jpg";
 import Metaverse from "../../assets/Wg86pOz.png";
 import Bud from "../../assets/xQN2bV9.jpg";
+import { FaTwitter } from "react-icons/fa";
 
 import "./Team.css"
 
@@ -21,6 +22,7 @@ function Team() {
           <div className="team_name">
             <h3>Moonbox</h3>
             <p>Artist and Founder of all things Solweedpunk</p>
+            <FaTwitter size={26} />
           </div>
         </div>
         <div className="team">
@@ -30,6 +32,7 @@ function Team() {
           <div className="team_name">
             <h3>DankMonke</h3>
             <p>Helper monke, Investor, Advisor, Mod, Stuff doer</p>
+            <FaTwitter size={26} />
           </div>
         </div>
         <div className="team">
@@ -42,6 +45,7 @@ function Team() {
               Formerly Test Guys - They are the big brains behind our metaverse
               world
             </p>
+            <FaTwitter size={26} />
           </div>
         </div>
         {/* Team two */}
@@ -52,6 +56,7 @@ function Team() {
           <div className="team_name">
             <h3>Terp Doctor</h3>
             <p>Artist and Founder of all things Solweedpunk</p>
+            <FaTwitter size={26} />
           </div>
         </div>
         <div className="team">
@@ -61,6 +66,7 @@ function Team() {
           <div className="team_name">
             <h3>Nico GT</h3>
             <p>Helper monke, Investor, Advisor, Mod, Stuff doer</p>
+            <FaTwitter size={26} />
           </div>
         </div>
         <div className="team">
@@ -72,6 +78,7 @@ function Team() {
             <p>
               Software Engineer, building and making the web accessible to many
             </p>
+            <FaTwitter size={26} />
           </div>
         </div>
       </div>

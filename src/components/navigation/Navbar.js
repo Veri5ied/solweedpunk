@@ -5,7 +5,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="nav sticky-top">
-      <div className="nav_items container pt-2 pb-2">
+      <div className="nav_items container-fluid pt-2 pb-2">
         <div className="nav_items_logo">
           <img src={SolWeedLogo} alt="SolWeedPunk" />
         </div>

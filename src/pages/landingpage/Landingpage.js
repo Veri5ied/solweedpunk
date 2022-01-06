@@ -1,8 +1,8 @@
 import HeroImage from "../../assets/grsDRXc.png";
 import AboutImage from "../../assets/afzwKAO.png";
-import TokePro from "../../assets/toke pro.gif";
 import TokeToke from "../../assets/toke-toke.gif";
 import Bud from "../../assets/xQN2bV9.jpg";
+import Toke from "../../assets/toke.gif";
 import Navbar from "../../components/navigation/Navbar";
 import { BsDiscord } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
@@ -22,7 +22,7 @@ function Landingpage() {
           <FaTwitter size={40} />
         </div>
         <div className="page_body_right">
-          <img src={TokePro} alt="hero_image" />
+          <img src={Toke} alt="hero_image" />
         </div>
       </div>
       {/* Mission */}
@@ -53,10 +53,13 @@ function Landingpage() {
           <div className="sol_roadmap_title">
             <h2>SOLWEEDPUNKZ ROADMAP...</h2>
           </div>
+          <p className="roadmap_text text-center">
+            <img src={Toke} alt="toke" />
+          </p>
         </div>
       </div>
       {/* Toke Toke Arts */}
-      <div className="sol_toke_arts container mt-4">
+      <div className="sol_toke_arts container mt-2">
         <div className="toke_img_title">
           <h2>SOLWEEDPUNKZ ARTS...</h2>
         </div>
@@ -71,11 +74,11 @@ function Landingpage() {
         <Team />
       </div>
       {/* FAQ */}
-      <div className="faq_section container mt-4">
+      <div className="faq_section container mt-1">
         <div className="faq_title">
           <h2 className="faq">FAQ...</h2>
         </div>
-        <div className="faq__body mb-3">
+        <div className="faq__body">
           <FaqComponent />
         </div>
       </div>

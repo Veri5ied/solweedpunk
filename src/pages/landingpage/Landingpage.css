@@ -10,7 +10,7 @@
 }
 
 .page_body_left h1 {
-  font-size: 63px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .page_body_right img {
-  width: 380px;
+  width: 360px;
   height: 350px;
   border-radius: 60%;
 }
@@ -29,10 +29,11 @@
 .toke_img_title,
 .solweedpunk_team_title,
 .faq {
-  margin-top: 4em;
+  margin-top: 3em;
   color: #fff;
   border-bottom: 10px solid #a2b4d2;
   width: fit-content;
+  font-size: 42px;
 }
 
 .toke_imgs img {
@@ -86,4 +87,8 @@ svg:hover {
 
 .footer_text p {
   color: #a2b4d2;
+}
+
+.roadmap_text img {
+  width: 300px;
 }

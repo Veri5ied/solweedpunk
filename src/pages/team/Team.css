@@ -10,6 +10,7 @@
 .team {
   width: 300px;
   text-align: center;
+  padding: 2em 0;
 }
 
 .team_name {
@@ -25,10 +26,11 @@
 
 .team_name p {
   text-align: center;
-  font-size: 15px
+  font-size: 15px;
 }
 
 .team_img img {
   width: 160px;
   border-radius: 50%;
 }
+
