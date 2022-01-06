@@ -12,10 +12,12 @@
 .page_body_left h1 {
   font-size: 60px;
   color: #fff;
+  font-family: "Shizuru", cursive;
 }
 
 .page_body_left h2 {
   color: #a2b4d2;
+  font-family: "Shizuru", cursive;
 }
 
 .page_body_right img {

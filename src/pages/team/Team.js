@@ -2,7 +2,7 @@ import DankMonk from "../../assets/mWNcDgt.png";
 import Terp from "../../assets/terp.png";
 import Alvin from "../../assets/alvin.png";
 import Nico from "../../assets/nico.jpg";
-import Metaverse from "../../assets/Wg86pOz.png";
+import Metaverse from "../../assets/metaversol.png";
 import Bud from "../../assets/xQN2bV9.jpg";
 import { FaTwitter } from "react-icons/fa";
 
@@ -21,7 +21,7 @@ function Team() {
           </div>
           <div className="team_name">
             <h3>Moonbox</h3>
-            <p>Artist and Founder of all things Solweedpunk</p>
+            <p>Artist and Founder of all things on Solweedpunk</p>
             <FaTwitter size={26} />
           </div>
         </div>
@@ -55,7 +55,7 @@ function Team() {
           </div>
           <div className="team_name">
             <h3>Terp Doctor</h3>
-            <p>Artist and Founder of all things Solweedpunk</p>
+            <p>Artist and Founder of all things on Solweedpunk</p>
             <FaTwitter size={26} />
           </div>
         </div>
@@ -65,7 +65,7 @@ function Team() {
           </div>
           <div className="team_name">
             <h3>Nico GT</h3>
-            <p>Community manager and 3D artist.</p>
+            <p>Community manager and 3D artist and moderator.</p>
             <FaTwitter size={26} />
           </div>
         </div>
