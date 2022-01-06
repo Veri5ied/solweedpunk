@@ -39,8 +39,10 @@ function Landingpage() {
             </div>
             <div className="about_texts">
               <p>
-                888 collectable Weedpunkz generated with random attributes and
-                items. Grab some fun pixel art for you and your buds!
+                This is an art and community forward project with no gimmicky
+                royalties or burns. 888 collectable Weedpunkz generated with
+                random attributes and items. Grab some fun pixel art for you and
+                your buds!
               </p>
             </div>
           </div>
@@ -141,6 +143,16 @@ function Landingpage() {
         </div>
         <div className="faq__body mb-3">
           <FaqComponent />
+        </div>
+      </div>
+      {/* Footer Section */}
+      <div className="footer_section container mt-4">
+        <div className="footer_text">
+          <div className="footer_social">
+            <BsDiscord />
+            <FaTwitter />
+          </div>
+          <p>Copyright © 2022, SolWeedPunk.</p>
         </div>
       </div>
     </div>
