@@ -17,3 +17,19 @@ li p a {
 li p a:hover {
   color: #a2b4d2;
 }
+
+@media screen and (max-width: 480px) {
+  ul li {
+    width: 240px;
+    margin: 0;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}

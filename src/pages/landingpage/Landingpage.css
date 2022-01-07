@@ -94,3 +94,39 @@ svg:hover {
 .roadmap_text img {
   width: 300px;
 }
+
+@media screen and (max-width: 480px) {
+  .page_body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page_body_left {
+    width: fit-content;
+  }
+
+  .page_body_left h1 {
+    font-size: 42px;
+  }
+
+  .about_mission {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .toke_imgs {
+    display: flex;
+  }
+
+  .about_texts {
+    width: fit-content;
+    margin-top: 1.6em;
+  }
+
+  .toke_toke_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -89,7 +89,7 @@ function Landingpage() {
       <div className="solweedpunk_team container mt-4">
         <Team />
       </div>
-      {/* FAQ */}
+      {/* OFFICIAL LINKS */}
       <div id="links"></div>
       <div className="link_section container mt-1">
         <div className="link_title">
