@@ -23,3 +23,31 @@
 .nav_items_menus a:hover {
   color: #a2b4d2;
 }
+
+.nav_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .nav_web {
+    display: none;
+  }
+
+  .nav_mobile {
+    display: block;
+  }
+
+  .nav_items_menus {
+    display: block;
+    background: #0b0c22;
+  }
+
+  .nav_items_menus a {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    align-items: center;
+    background: #0b0c22;
+    transition: 0.4 ease-in;
+  }
+}
