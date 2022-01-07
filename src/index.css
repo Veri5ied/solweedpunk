@@ -15,12 +15,17 @@ body::-webkit-scrollbar-track {
   background: #0b0c22 !important;
 }
 
+html {
+  scroll-behavior: smooth !important;
+  transition: all 1s !important;
+}
+
 body::-webkit-scrollbar-thumb {
   background-color: #0b0c22 !important;
   border-radius: 6px;
   border: 3px solid #a2b4d2;
+  scroll-behavior: smooth !important;
 }
-
 
 @media screen and (max-width: 780px) {
 }

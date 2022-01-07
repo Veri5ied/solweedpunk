@@ -1,6 +1,7 @@
 .nav {
   background: #0b0c22;
   height: 11vh;
+  transition: all 1s !important;
 }
 
 .nav > .nav_items {
@@ -33,13 +34,23 @@
     display: none;
   }
 
+  .nav {
+    transition: all 1s !important;
+  }
+
   .nav_mobile {
     display: block;
+    transition: all 1s !important;
+  }
+
+  .nav_mobile_icon {
+    transition: all 1s !important;
   }
 
   .nav_items_menus {
-    display: block;
     background: #0b0c22;
+    border-bottom: 10px solid #0b0c22;
+    transition: all 1s !important;
   }
 
   .nav_items_menus a {
@@ -48,6 +59,16 @@
     padding: 1em 0;
     align-items: center;
     background: #0b0c22;
-    transition: 0.4 ease-in;
+    transition: all 1s !important;
+  }
+
+  .active {
+    display: block;
+    transition: all 1s !important;
+  }
+
+  .disable {
+    display: none;
+    transition: all 1s !important;
   }
 }

@@ -38,8 +38,9 @@ function Navbar() {
           </div>
         </div>
         <div
-          className="nav_items_menus"
-          style={{ display: `${show ? "block" : "none"}` }}
+          className={
+            show ? "nav_items_menus active" : "nav_items_menus disable"
+          }
         >
           <a href="#home">HOME</a>
           <a href="#about">ABOUT</a>
