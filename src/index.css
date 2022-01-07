@@ -27,5 +27,13 @@ body::-webkit-scrollbar-thumb {
   scroll-behavior: smooth !important;
 }
 
+#home,
+#about,
+#roadmap,
+#team,
+#links {
+  scroll-behavior: smooth !important;
+}
+
 @media screen and (max-width: 780px) {
 }
