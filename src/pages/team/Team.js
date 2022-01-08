@@ -14,36 +14,42 @@ function Team() {
       role: "Artist and Founder of all things on Solweedpunkz",
       social: "",
       image: `${Moon}`,
+      altImg: "Moonbox",
     },
     {
       name: "DankMonke",
       role: "Helper monke, Investor, Advisor, Mod, Stuff doer",
       social: "",
       image: `${Dank}`,
+      altImg: "Dank",
     },
     {
       name: "Metaversol",
       role: "Formerly Test Guys - They are the big brains behind our metaverse world",
       social: "",
       image: `${Meta}`,
+      altImg: "Metaversol",
     },
     {
       name: "Terp Doctor",
       role: "Developer, community builder and moderator.",
       social: "",
       image: `${Terp}`,
+      altImg: "Terp Doctor",
     },
     {
       name: "Nico GT",
       role: "Community manager and 3D artist and moderator.",
       social: "",
       image: `${Nico}`,
+      altImg: "Nico GT",
     },
     {
       name: "Veri5ied",
       role: "Software Engineer, building and making the web accessible to many",
       social: "",
       image: `${Alvin}`,
+      altImg: "Alvin",
     },
   ];
   return (
@@ -55,7 +61,7 @@ function Team() {
         {team.map((tm) => (
           <div className="team" key={tm.id}>
             <div className="team_img">
-              <img src={tm.image} alt="team_image" />
+              <img src={tm.image} alt={tm.altImg} />
             </div>
             <div className="team_name">
               <h3>{tm.name}</h3>
