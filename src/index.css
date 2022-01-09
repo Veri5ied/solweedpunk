@@ -8,9 +8,10 @@ html {
 body {
   /* font-family: 'Poppins', sans-serif; */
   /* background: #0b0c22; */
-  background: url("./assets/weedland2\ fog.png") no-repeat center center scroll;
+  background: url("./assets/weedland2\ fog.png") no-repeat top center scroll;
   background-size: cover;
-  height: 100%;
+  background-attachment: scroll;
+  height: auto;
 }
 
 #home,
@@ -25,8 +26,5 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    background: url("./assets/weedland2\ fog.png") no-repeat cover scroll;
-    background-size: cover;
-  }
+  
 }
