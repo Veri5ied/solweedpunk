@@ -8,12 +8,9 @@ body {
   /* font-family: 'Poppins', sans-serif; */
   /* background: #0b0c22; */
   background: url("./assets/weedland2\ fog.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   
-  height: 100vh;
+  height: 100%;
   scrollbar-width: thin;
   scrollbar-color: #a2b4d2;
 }
