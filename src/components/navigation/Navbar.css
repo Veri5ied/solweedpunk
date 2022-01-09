@@ -37,7 +37,6 @@
   .nav {
     transition: all 1s !important;
     height: 7.5vh;
-    padding: 0.2em;
   }
 
   .nav_mobile {
@@ -52,7 +51,8 @@
   .nav_items_menus {
     background: #096b5b;
     transition: all 1s !important;
-    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
   }
 
   .nav_items_menus a {
