@@ -50,10 +50,9 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 480px) {
   body {
-    background: url("./assets/weedland2\ fog.png") no-repeat center center fixed;
+    background: url("./assets/weedland2\ fog.png") no-repeat center;
     background-size: cover;
-background-attachment: fixed;
+    background-attachment: fixed;
     height: 100%;
-    
   }
 }
