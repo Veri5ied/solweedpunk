@@ -6,8 +6,6 @@ html {
 }
 
 body {
-  /* font-family: 'Poppins', sans-serif; */
-  /* background: #0b0c22; */
   background: url("./assets/weedland2\ fog.png") no-repeat top center scroll;
   background-size: cover;
   background-attachment: scroll;
