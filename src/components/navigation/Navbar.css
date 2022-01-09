@@ -37,6 +37,7 @@
   .nav {
     transition: all 1s !important;
     height: 7.5vh;
+    width: 100%;
   }
 
   .nav_mobile {
