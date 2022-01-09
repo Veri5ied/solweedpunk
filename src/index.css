@@ -52,7 +52,6 @@ body::-webkit-scrollbar-thumb {
   body {
     background: url("./assets/weedland2\ fog.png") no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
     height: 100%;
   }
 }
