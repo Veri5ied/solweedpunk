@@ -29,7 +29,7 @@ function Navbar() {
       </div>
       {/* Mobile Nav Bar */}
       <div className="nav sticky-top nav_mobile">
-        <div className="nav_items container-fluid pt-2 pb-2">
+        <div className="nav_items container-fluid pt-2 pb-auto">
           <div className="nav_items_logo">
             <img src={SolWeedLogo} alt="SolWeedPunk" />
           </div>
