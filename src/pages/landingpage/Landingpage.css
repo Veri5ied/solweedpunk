@@ -96,6 +96,10 @@ svg:hover {
 }
 
 @media screen and (max-width: 480px) {
+
+  .landing_page {
+    overflow-x: hidden;
+  }
   .page_body {
     display: flex;
     flex-direction: column;

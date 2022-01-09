@@ -12,7 +12,7 @@ import Team from "../team/Team";
 
 function Landingpage() {
   return (
-    <div className="landing_page">
+    <div className="landingpage">
       <Navbar />
       <div id="home"></div>
       <div className="page_body container">

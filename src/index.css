@@ -2,6 +2,8 @@
 
 html {
   scroll-behavior: smooth !important;
+  border: 2px solid red;
+  overflow-x: hidden;
 }
 
 body {
@@ -9,7 +11,7 @@ body {
   /* background: #0b0c22; */
   background: url("./assets/weedland2\ fog.png") no-repeat center center fixed;
   background-size: cover;
-  
+
   height: 100%;
   scrollbar-width: thin;
   scrollbar-color: #a2b4d2;
@@ -44,4 +46,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: url("./assets/weedland2\ fog.png") no-repeat center center fixed;
+    background-size: cover;
+
+    height: 100%;
+    
+  }
 }
