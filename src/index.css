@@ -10,6 +10,7 @@ body {
   /* background: #0b0c22; */
   background: url("./assets/weedland2\ fog.png") no-repeat center center fixed;
   background-size: cover;
+  background-attachment: fixed;
 
   height: 100%;
   scrollbar-width: thin;
@@ -51,7 +52,7 @@ body::-webkit-scrollbar-thumb {
   body {
     background: url("./assets/weedland2\ fog.png") no-repeat center center fixed;
     background-size: cover;
-
+background-attachment: fixed;
     height: 100%;
     
   }
