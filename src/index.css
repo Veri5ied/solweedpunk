@@ -10,31 +10,7 @@ body {
   /* background: #0b0c22; */
   background: url("./assets/weedland2\ fog.png") no-repeat center center fixed;
   background-size: cover;
-  background-attachment: fixed;
-
   height: 100%;
-  scrollbar-width: thin;
-  scrollbar-color: #a2b4d2;
-}
-
-body::-webkit-scrollbar {
-  width: 11px;
-}
-
-body::-webkit-scrollbar-track {
-  background: #0b0c22 !important;
-}
-
-html {
-  scroll-behavior: smooth !important;
-  transition: all 1s !important;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #0b0c22 !important;
-  border-radius: 6px;
-  border: 3px solid #a2b4d2;
-  scroll-behavior: smooth !important;
 }
 
 #home,
@@ -50,8 +26,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 480px) {
   body {
-    background: url("./assets/weedland2\ fog.png") no-repeat center;
+    background: url("./assets/weedland2\ fog.png") no-repeat cover;
     background-size: cover;
-    height: 100%;
   }
 }
