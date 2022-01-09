@@ -2,7 +2,6 @@
 
 html {
   scroll-behavior: smooth !important;
-  border: 2px solid red;
   overflow-x: hidden;
 }
 
