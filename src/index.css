@@ -6,8 +6,9 @@ html {
 }
 
 body {
-  background: url("./assets/weedland2\ fog.png") no-repeat center center scroll;
-  background-size: cover;
+  background: url("./assets/toke3.png") no-repeat center center scroll;
+  background-size: contain;
+  background-color: #000;
   background-attachment: scroll;
   height: auto;
 }
@@ -25,10 +26,8 @@ body {
 
 @media screen and (max-width: 480px) {
   body {
-    background: url("./assets/weedland2\ fog.png")
-      scroll;
-    background-size: contain;
-    background-attachment: scroll;
-    max-height: 100vh;
+    background: url("./assets/toke3.png") no-repeat center scroll;
+    background-color: #000;
+    height: 100%;
   }
 }
