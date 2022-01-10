@@ -1,5 +1,6 @@
 .loading_bg {
   height: 100vh;
+  background: #000 !important;
 }
 
 .loading {
