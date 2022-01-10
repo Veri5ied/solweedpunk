@@ -10,8 +10,8 @@
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .loading_bg {
     height: fit-content;
   }
-}
+} */
