@@ -25,9 +25,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  body {
+ /*  body {
     background: url("./assets/toke3.png") no-repeat center scroll;
     background-color: #000;
     height: 100%;
-  }
+  } */
 }
