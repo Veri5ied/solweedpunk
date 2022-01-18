@@ -7,7 +7,7 @@ import Navbar from "../../components/navigation/Navbar";
 import { BsDiscord } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import "./Landingpage.css";
-import OfficialLinks from "../../components/links/OfficialLinks"
+import OfficialLinks from "../../components/links/OfficialLinks";
 import Roadmap from "../../components/roadmap/Roadmap";
 import Team from "../team/Team";
 
@@ -64,8 +64,8 @@ function Landingpage() {
       </div>
       {/* Roadmap */}
       <div id="roadmap"></div>
-      <div className="sol_roadmap container mt-4">
-        <div className="sol_roadmap_content">
+      <div className="sol_roadmap mt-4">
+        <div className="sol_roadmap_content container">
           <div className="sol_roadmap_title">
             <h2>SOLWEEDPUNKZ ROADMAP...</h2>
           </div>
@@ -73,7 +73,7 @@ function Landingpage() {
         </div>
       </div>
       {/* Toke Toke Arts */}
-      <div className="sol_toke_arts container mt-2">
+      <div className="sol_toke_arts container">
         <div className="toke_img_title">
           <h2>SOLWEEDPUNKZ ARTS...</h2>
         </div>
@@ -107,14 +107,14 @@ function Landingpage() {
               target="_blank"
               rel="noreferrer"
             >
-              <BsDiscord size={20}/>
+              <BsDiscord size={20} />
             </a>
             <a
               href="https://twitter.com/solweedpunk"
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter size={20}/>
+              <FaTwitter size={20} />
             </a>
           </div>
           <p>Copyright © 2022, SolWeedPunk.</p>
