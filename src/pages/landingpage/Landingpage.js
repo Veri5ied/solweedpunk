@@ -8,6 +8,7 @@ import { BsDiscord } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import "./Landingpage.css";
 import OfficialLinks from "../../components/links/OfficialLinks"
+import Roadmap from "../../components/roadmap/Roadmap";
 import Team from "../team/Team";
 
 function Landingpage() {
@@ -68,9 +69,7 @@ function Landingpage() {
           <div className="sol_roadmap_title">
             <h2>SOLWEEDPUNKZ ROADMAP...</h2>
           </div>
-          <p className="roadmap_text text-center">
-            <img src={Toke} alt="toke" />
-          </p>
+          <Roadmap />
         </div>
       </div>
       {/* Toke Toke Arts */}
