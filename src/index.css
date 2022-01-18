@@ -6,7 +6,7 @@ html {
 }
 
 body {
-/*   background: url("./assets/toke3.png") no-repeat center center fixed; */
+  background: url("./assets/toke3.png") no-repeat center center fixed;
   background-size: contain;
   background-color: #000;
   background-attachment: fixed;

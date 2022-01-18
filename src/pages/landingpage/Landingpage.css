@@ -31,7 +31,7 @@
 .toke_img_title,
 .solweedpunk_team_title,
 .link_title {
-  margin-top: 1em;
+  margin-top: 3em;
   color: #fff;
   border-bottom: 10px solid #a2b4d2;
   width: fit-content;
@@ -71,13 +71,6 @@
   border-radius: 50%;
 }
 
-.sol_roadmap {
-  background: url("../../assets/weedland2-fog22.png") no-repeat;
-  background-size: cover;
-  background-color: #000;
-  height: 100%;
-}
-
 svg {
   color: #fff;
   margin: 0 0.5em;
@@ -103,6 +96,7 @@ svg:hover {
 }
 
 @media screen and (max-width: 480px) {
+
   .landing_page {
     overflow-x: hidden;
   }
