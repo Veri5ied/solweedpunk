@@ -73,7 +73,7 @@ function Landingpage() {
         </div>
       </div>
       {/* Toke Toke Arts */}
-      <div className="sol_toke_arts container">
+      {/* <div className="sol_toke_arts container">
         <div className="toke_img_title">
           <h2>SOLWEEDPUNKZ ARTS...</h2>
         </div>
@@ -82,7 +82,7 @@ function Landingpage() {
           <img src={Bud} alt="" />
           <img src={AboutImage} alt="" />
         </div>
-      </div>
+      </div> */}
       {/* The team */}
       <div id="team"></div>
       <div className="solweedpunk_team container mt-4">
