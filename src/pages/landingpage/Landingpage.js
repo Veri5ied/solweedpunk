@@ -1,7 +1,4 @@
 import HeroImage from "../../assets/grsDRXc.png";
-import AboutImage from "../../assets/afzwKAO.png";
-import TokeToke from "../../assets/toke-toke.gif";
-import Bud from "../../assets/xQN2bV9.jpg";
 import Toke from "../../assets/toke.gif";
 import Navbar from "../../components/navigation/Navbar";
 import { BsDiscord } from "react-icons/bs";
